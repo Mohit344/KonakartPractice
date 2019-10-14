@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>productdetail</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 14 20:59:18 IST 2019</td>
+<td>Started on:</td><td>Mon Oct 14 23:23:34 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19992 ms)</td>
+<tr><td>Total time:</td><td>24 seconds (24982 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,97 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.konakart.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.konakart.script.ProductDetailsScript<br>Parameters: Rating: high to low</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer&apos;s JavaScript engine.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;ATMECSINLT-283&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46887/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b4da094c-7eb1-4e57-bb6b-8f87149d65c2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:312)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:117)
+	at com.konakart.helper.CommonUtility$2.apply(CommonUtility.java:130)
+	at com.konakart.helper.CommonUtility$2.apply(CommonUtility.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
+	at com.konakart.helper.CommonUtility.selectDropdown(CommonUtility.java:124)
+	at com.konakart.script.ProductDetailsScript.productReview(ProductDetailsScript.java:45)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace296974277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace296974277'><pre>org.openqa.selenium.StaleElementReferenceException: Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer&apos;s JavaScript engine.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;ATMECSINLT-283&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46887/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b4da094c-7eb1-4e57-bb6b-8f87149d65c2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:312)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:117)
+	at com.konakart.helper.CommonUtility$2.apply(CommonUtility.java:130)
+	at com.konakart.helper.CommonUtility$2.apply(CommonUtility.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:211)
+	at com.konakart.helper.CommonUtility.selectDropdown(CommonUtility.java:124)
+	at com.konakart.script.ProductDetailsScript.productReview(ProductDetailsScript.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,80 +166,75 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.website.script.HomePageScript.click()'><b>click</b><br>Test class: com.website.script.HomePageScript<br>Parameters: Computer Peripherals, Microsoft IntelliMouse Explorer, $64.95, ball, There are no available products.</td>
-<td></td>
-<td>10</td>
-<td>com.website.script.HomePageScript@5a1c0542</td></tr>
-<tr>
-<td title='com.website.script.HomePageScript.click()'><b>click</b><br>Test class: com.website.script.HomePageScript<br>Parameters: Games, Call Of Duty, $39.99, mouse, There are no available products.</td>
-<td></td>
-<td>11</td>
-<td>com.website.script.HomePageScript@5a1c0542</td></tr>
-<tr>
-<td title='com.website.script.HomePageScript.click()'><b>click</b><br>Test class: com.website.script.HomePageScript<br>Parameters: DVD Movies, Die Hard With A Vengeance, $39.99, call of duty, There are no available products.</td>
-<td></td>
-<td>11</td>
-<td>com.website.script.HomePageScript@5a1c0542</td></tr>
-<tr>
-<td title='com.website.script.HomePageScript.click()'><b>click</b><br>Test class: com.website.script.HomePageScript<br>Parameters: Software, Windows 8, $79.99, kkk, There are no available products.</td>
-<td></td>
-<td>11</td>
-<td>com.website.script.HomePageScript@5a1c0542</td></tr>
-<tr>
-<td title='com.website.script.HomePageScript.click()'><b>click</b><br>Test class: com.website.script.HomePageScript<br>Parameters: Electronics, Kindle Fire HD, $199.99, pd, There are no available products.</td>
-<td></td>
-<td>10</td>
-<td>com.website.script.HomePageScript@5a1c0542</td></tr>
-<tr>
-<td title='com.website.script.HomePageScript.click()'><b>click</b><br>Test class: com.website.script.HomePageScript<br>Parameters: Home & Garden, De'Longhi BCO 410, $159.99, work, There are no available products.</td>
+<td title='com.konakart.script.HomePageScript.click()'><b>click</b><br>Test class: com.konakart.script.HomePageScript<br>Parameters: Computer Peripherals, Microsoft IntelliMouse Explorer, $64.95, ball, There are no available products.</td>
 <td></td>
 <td>12</td>
-<td>com.website.script.HomePageScript@5a1c0542</td></tr>
+<td>com.konakart.script.HomePageScript@5a1c0542</td></tr>
 <tr>
-<td title='com.website.script.HomePageScript.click()'><b>click</b><br>Test class: com.website.script.HomePageScript<br>Parameters: Gifts, Gift Certificate, $10.00, card, There are no available products.</td>
+<td title='com.konakart.script.HomePageScript.click()'><b>click</b><br>Test class: com.konakart.script.HomePageScript<br>Parameters: Games, Call Of Duty, $39.99, mouse, There are no available products.</td>
 <td></td>
-<td>10</td>
-<td>com.website.script.HomePageScript@5a1c0542</td></tr>
+<td>12</td>
+<td>com.konakart.script.HomePageScript@5a1c0542</td></tr>
 <tr>
-<td title='com.website.script.ProductDetailsScript.clickOnProductReview()'><b>clickOnProductReview</b><br>Test class: com.website.script.ProductDetailsScript</td>
+<td title='com.konakart.script.HomePageScript.click()'><b>click</b><br>Test class: com.konakart.script.HomePageScript<br>Parameters: DVD Movies, Die Hard With A Vengeance, $39.99, call of duty, There are no available products.</td>
 <td></td>
-<td>0</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
+<td>13</td>
+<td>com.konakart.script.HomePageScript@5a1c0542</td></tr>
 <tr>
-<td title='com.website.script.ProductDetailsScript.clickOnSlideShow()'><b>clickOnSlideShow</b><br>Test class: com.website.script.ProductDetailsScript</td>
+<td title='com.konakart.script.HomePageScript.click()'><b>click</b><br>Test class: com.konakart.script.HomePageScript<br>Parameters: Software, Windows 8, $79.99, kkk, There are no available products.</td>
+<td></td>
+<td>12</td>
+<td>com.konakart.script.HomePageScript@5a1c0542</td></tr>
+<tr>
+<td title='com.konakart.script.HomePageScript.click()'><b>click</b><br>Test class: com.konakart.script.HomePageScript<br>Parameters: Electronics, Kindle Fire HD, $199.99, pd, There are no available products.</td>
+<td></td>
+<td>13</td>
+<td>com.konakart.script.HomePageScript@5a1c0542</td></tr>
+<tr>
+<td title='com.konakart.script.HomePageScript.click()'><b>click</b><br>Test class: com.konakart.script.HomePageScript<br>Parameters: Home & Garden, De'Longhi BCO 410, $159.99, work, There are no available products.</td>
+<td></td>
+<td>13</td>
+<td>com.konakart.script.HomePageScript@5a1c0542</td></tr>
+<tr>
+<td title='com.konakart.script.HomePageScript.click()'><b>click</b><br>Test class: com.konakart.script.HomePageScript<br>Parameters: Gifts, Gift Certificate, $10.00, card, There are no available products.</td>
+<td></td>
+<td>13</td>
+<td>com.konakart.script.HomePageScript@5a1c0542</td></tr>
+<tr>
+<td title='com.konakart.script.ProductDetailsScript.clickOnProductReview()'><b>clickOnProductReview</b><br>Test class: com.konakart.script.ProductDetailsScript</td>
+<td></td>
+<td>1</td>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
+<tr>
+<td title='com.konakart.script.ProductDetailsScript.clickOnSlideShow()'><b>clickOnSlideShow</b><br>Test class: com.konakart.script.ProductDetailsScript</td>
 <td></td>
 <td>4</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
 <tr>
-<td title='com.website.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.website.script.ProductDetailsScript<br>Parameters: Most recent first</td>
+<td title='com.konakart.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.konakart.script.ProductDetailsScript<br>Parameters: Most recent first</td>
 <td></td>
 <td>1</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
 <tr>
-<td title='com.website.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.website.script.ProductDetailsScript<br>Parameters: Oldest first</td>
+<td title='com.konakart.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.konakart.script.ProductDetailsScript<br>Parameters: Oldest first</td>
 <td></td>
 <td>2</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
 <tr>
-<td title='com.website.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.website.script.ProductDetailsScript<br>Parameters: Rating: high to low</td>
+<td title='com.konakart.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.konakart.script.ProductDetailsScript<br>Parameters: Rating: low to high</td>
+<td></td>
+<td>2</td>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
+<tr>
+<td title='com.konakart.script.ProductDetailsScript.validateProduct()'><b>validateProduct</b><br>Test class: com.konakart.script.ProductDetailsScript<br>Parameters: [Ljava.lang.String;@31da3d60</td>
+<td></td>
+<td>3</td>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
+<tr>
+<td title='com.konakart.script.ProductDetailsScript.validateProduct()'><b>validateProduct</b><br>Test class: com.konakart.script.ProductDetailsScript<br>Parameters: [Ljava.lang.String;@70e13fa</td>
 <td></td>
 <td>1</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
-<tr>
-<td title='com.website.script.ProductDetailsScript.productReview()'><b>productReview</b><br>Test class: com.website.script.ProductDetailsScript<br>Parameters: Rating: low to high</td>
-<td></td>
-<td>1</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
-<tr>
-<td title='com.website.script.ProductDetailsScript.validateProduct()'><b>validateProduct</b><br>Test class: com.website.script.ProductDetailsScript<br>Parameters: [Ljava.lang.String;@65ec8b24</td>
-<td></td>
-<td>1</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
-<tr>
-<td title='com.website.script.ProductDetailsScript.validateProduct()'><b>validateProduct</b><br>Test class: com.website.script.ProductDetailsScript<br>Parameters: [Ljava.lang.String;@70e13fa</td>
-<td></td>
-<td>1</td>
-<td>com.website.script.ProductDetailsScript@528931cf</td></tr>
+<td>com.konakart.script.ProductDetailsScript@528931cf</td></tr>
 </table><p>
 </body>
 </html>

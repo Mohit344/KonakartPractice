@@ -4,14 +4,9 @@
 <parameter name="browserType" value="chrome" />
  <test name="searchProduct">
 <classes>
- <class name="com.website.script.HomePageScript" />  
+ <class name="com.konakart.script.HomePageScript" />  
 </classes>
   </test>
  
-<!--  <test name="contentmenu"> -->
-<!--     <classes> -->
-<!--       <class name="com.konakart.script.KonaKartScriptScenarioSecond" />   script class name   -->
-<!--     </classes> -->
-<!--   </test> -->
 
  </suite>

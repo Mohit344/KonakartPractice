@@ -1,1 +1,2 @@
-com\website\script\HomePageScript.class
+com\konakart\script\HomePageScript.class
+com\konakart\script\ProductDetailsScript.class
