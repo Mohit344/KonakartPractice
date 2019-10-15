@@ -126,11 +126,10 @@ public class CommonUtility extends DriverClass{
 				.withTimeout(Duration.ofMillis(FileConstant.time));
 		fluentWait.until(new Function<WebDriver, Boolean>() {
 			public Boolean apply(WebDriver driver) {	
-				locatorsType(locator);
-				element.isDisplayed();
-				Select select = new Select(element);
-
-				select.selectByVisibleText(text);
+				
+				WebElement element = CommonUtility.locatorsType(locator);
+				Select select1 = new Select(element);
+				select1.selectByVisibleText(text);
 				return true;
 			}
 
@@ -242,11 +241,12 @@ public class CommonUtility extends DriverClass{
 	 * @param xpath  and uses the explicit wait concept
 	 * @return a boolean value after checking the visibility of the.
 	 */
-	public static boolean isElementVisible(WebDriver driver, String xpath) {
+	public static boolean isElementVisible(WebDriver driver, String locator) {
 
 		WebDriverWait wait = new WebDriverWait(driver, FileConstant.Expicit_Wait);
 		try {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+			//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+			wait.until(ExpectedConditions.visibilityOf(CommonUtility.locatorsType(locator)));
 		} catch (Exception exception) {
 
 			return false;
@@ -303,7 +303,6 @@ public class CommonUtility extends DriverClass{
 	 * @param locator
 	 */
 	public static void scrollToElement(WebDriver driver, String locator) {
-		//WebElement element = driver.findElement(By.xpath(xpath));
 		locatorsType(locator);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(false);", element);

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="97086" started-at="2019-10-15T00:29:44 IST" finished-at="2019-10-15T00:31:21 IST">
+  <suite name="Suite1" duration-ms="107346" started-at="2019-10-15T16:41:37 IST" finished-at="2019-10-15T16:43:24 IST">
     <groups>
     </groups>
-    <test name="searchProduct" duration-ms="67933" started-at="2019-10-15T00:29:44 IST" finished-at="2019-10-15T00:30:52 IST">
+    <test name="searchProduct" duration-ms="70029" started-at="2019-10-15T16:41:37 IST" finished-at="2019-10-15T16:42:47 IST">
       <class name="com.konakart.script.HomePageScript">
-        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.konakart.script.HomePageScript@4566e5bd]" name="configSetup" is-config="true" duration-ms="20635" started-at="2019-10-15T00:29:44 IST" finished-at="2019-10-15T00:30:05 IST">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.konakart.script.HomePageScript@13805618]" name="configSetup" is-config="true" duration-ms="6638" started-at="2019-10-15T16:41:37 IST" finished-at="2019-10-15T16:41:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configSetup -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@4566e5bd]" name="searchProduct" duration-ms="6543" started-at="2019-10-15T00:30:07 IST" data-provider="homePage" finished-at="2019-10-15T00:30:13 IST">
+        <test-method status="PASS" signature="validateSearchedProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@13805618]" name="validateSearchedProduct" duration-ms="9760" started-at="2019-10-15T16:41:45 IST" data-provider="homePage" finished-at="2019-10-15T16:41:54 IST">
           <params>
             <param index="0">
               <value>
@@ -41,8 +41,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@4566e5bd]" name="searchProduct" duration-ms="6302" started-at="2019-10-15T00:30:13 IST" data-provider="homePage" finished-at="2019-10-15T00:30:20 IST">
+        </test-method> <!-- validateSearchedProduct -->
+        <test-method status="PASS" signature="validateSearchedProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@13805618]" name="validateSearchedProduct" duration-ms="8651" started-at="2019-10-15T16:41:54 IST" data-provider="homePage" finished-at="2019-10-15T16:42:03 IST">
           <params>
             <param index="0">
               <value>
@@ -72,8 +72,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@4566e5bd]" name="searchProduct" duration-ms="6947" started-at="2019-10-15T00:30:20 IST" data-provider="homePage" finished-at="2019-10-15T00:30:27 IST">
+        </test-method> <!-- validateSearchedProduct -->
+        <test-method status="PASS" signature="validateSearchedProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@13805618]" name="validateSearchedProduct" duration-ms="8400" started-at="2019-10-15T16:42:03 IST" data-provider="homePage" finished-at="2019-10-15T16:42:11 IST">
           <params>
             <param index="0">
               <value>
@@ -103,8 +103,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@4566e5bd]" name="searchProduct" duration-ms="6590" started-at="2019-10-15T00:30:27 IST" data-provider="homePage" finished-at="2019-10-15T00:30:33 IST">
+        </test-method> <!-- validateSearchedProduct -->
+        <test-method status="PASS" signature="validateSearchedProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@13805618]" name="validateSearchedProduct" duration-ms="8976" started-at="2019-10-15T16:42:11 IST" data-provider="homePage" finished-at="2019-10-15T16:42:20 IST">
           <params>
             <param index="0">
               <value>
@@ -134,8 +134,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@4566e5bd]" name="searchProduct" duration-ms="6395" started-at="2019-10-15T00:30:33 IST" data-provider="homePage" finished-at="2019-10-15T00:30:40 IST">
+        </test-method> <!-- validateSearchedProduct -->
+        <test-method status="PASS" signature="validateSearchedProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@13805618]" name="validateSearchedProduct" duration-ms="8941" started-at="2019-10-15T16:42:20 IST" data-provider="homePage" finished-at="2019-10-15T16:42:29 IST">
           <params>
             <param index="0">
               <value>
@@ -165,8 +165,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@4566e5bd]" name="searchProduct" duration-ms="6580" started-at="2019-10-15T00:30:40 IST" data-provider="homePage" finished-at="2019-10-15T00:30:46 IST">
+        </test-method> <!-- validateSearchedProduct -->
+        <test-method status="PASS" signature="validateSearchedProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@13805618]" name="validateSearchedProduct" duration-ms="8367" started-at="2019-10-15T16:42:29 IST" data-provider="homePage" finished-at="2019-10-15T16:42:38 IST">
           <params>
             <param index="0">
               <value>
@@ -196,8 +196,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="searchProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@4566e5bd]" name="searchProduct" duration-ms="6174" started-at="2019-10-15T00:30:46 IST" data-provider="homePage" finished-at="2019-10-15T00:30:52 IST">
+        </test-method> <!-- validateSearchedProduct -->
+        <test-method status="PASS" signature="validateSearchedProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.konakart.script.HomePageScript@13805618]" name="validateSearchedProduct" duration-ms="8634" started-at="2019-10-15T16:42:38 IST" data-provider="homePage" finished-at="2019-10-15T16:42:46 IST">
           <params>
             <param index="0">
               <value>
@@ -227,46 +227,54 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
+        </test-method> <!-- validateSearchedProduct -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.konakart.script.HomePageScript@13805618]" name="endReport" is-config="true" duration-ms="556" started-at="2019-10-15T16:42:46 IST" finished-at="2019-10-15T16:42:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- com.konakart.script.HomePageScript -->
     </test> <!-- searchProduct -->
-    <test name="productdetail" duration-ms="29092" started-at="2019-10-15T00:30:52 IST" finished-at="2019-10-15T00:31:21 IST">
+    <test name="productdetail" duration-ms="37221" started-at="2019-10-15T16:42:47 IST" finished-at="2019-10-15T16:43:24 IST">
       <class name="com.konakart.script.ProductDetailsScript">
-        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="configSetup" is-config="true" duration-ms="13182" started-at="2019-10-15T00:30:52 IST" finished-at="2019-10-15T00:31:06 IST">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="configSetup" is-config="true" duration-ms="4446" started-at="2019-10-15T16:42:47 IST" finished-at="2019-10-15T16:42:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configSetup -->
-        <test-method status="PASS" signature="clickOnSlideShow()[pri:1, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="clickOnSlideShow" duration-ms="4381" started-at="2019-10-15T00:31:06 IST" finished-at="2019-10-15T00:31:10 IST">
+        <test-method status="PASS" signature="clickOnSlideShow()[pri:1, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="clickOnSlideShow" duration-ms="4826" started-at="2019-10-15T16:42:51 IST" finished-at="2019-10-15T16:42:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSlideShow -->
-        <test-method status="PASS" signature="validateProduct([Ljava.lang.String;)[pri:2, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="validateProduct" duration-ms="1309" started-at="2019-10-15T00:31:10 IST" data-provider="productDescription" finished-at="2019-10-15T00:31:11 IST">
+        <test-method status="PASS" signature="validateProductDescription([Ljava.lang.String;)[pri:2, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="validateProductDescription" duration-ms="846" started-at="2019-10-15T16:42:56 IST" data-provider="productDescription" finished-at="2019-10-15T16:42:57 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@4a8df3e2]]>
+                <![CDATA[[Ljava.lang.String;@480ad82c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateProduct -->
-        <test-method status="PASS" signature="validateProduct([Ljava.lang.String;)[pri:2, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="validateProduct" duration-ms="666" started-at="2019-10-15T00:31:11 IST" data-provider="productDescription" finished-at="2019-10-15T00:31:12 IST">
+        </test-method> <!-- validateProductDescription -->
+        <test-method status="PASS" signature="validateProductDescription([Ljava.lang.String;)[pri:2, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="validateProductDescription" duration-ms="973" started-at="2019-10-15T16:42:57 IST" data-provider="productDescription" finished-at="2019-10-15T16:42:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@680d4a6a]]>
+                <![CDATA[[Ljava.lang.String;@791c12e3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateProduct -->
-        <test-method status="PASS" signature="clickOnProductReview()[pri:3, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="clickOnProductReview" duration-ms="1385" started-at="2019-10-15T00:31:12 IST" finished-at="2019-10-15T00:31:13 IST">
+        </test-method> <!-- validateProductDescription -->
+        <test-method status="PASS" signature="validateProductSpecification()[pri:3, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="validateProductSpecification" duration-ms="1549" started-at="2019-10-15T16:42:58 IST" finished-at="2019-10-15T16:43:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSpecification -->
+        <test-method status="PASS" signature="clickOnProductReview()[pri:4, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="clickOnProductReview" duration-ms="1064" started-at="2019-10-15T16:43:00 IST" finished-at="2019-10-15T16:43:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnProductReview -->
-        <test-method status="PASS" signature="productReview(java.lang.String)[pri:4, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="productReview" duration-ms="337" started-at="2019-10-15T00:31:13 IST" data-provider="productReview" finished-at="2019-10-15T00:31:14 IST">
+        <test-method status="PASS" signature="productReview(java.lang.String)[pri:5, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="productReview" duration-ms="5177" started-at="2019-10-15T16:43:01 IST" data-provider="productReview" finished-at="2019-10-15T16:43:06 IST">
           <params>
             <param index="0">
               <value>
@@ -277,7 +285,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productReview -->
-        <test-method status="PASS" signature="productReview(java.lang.String)[pri:4, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="productReview" duration-ms="3117" started-at="2019-10-15T00:31:14 IST" data-provider="productReview" finished-at="2019-10-15T00:31:17 IST">
+        <test-method status="PASS" signature="productReview(java.lang.String)[pri:5, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="productReview" duration-ms="5778" started-at="2019-10-15T16:43:06 IST" data-provider="productReview" finished-at="2019-10-15T16:43:12 IST">
           <params>
             <param index="0">
               <value>
@@ -288,7 +296,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productReview -->
-        <test-method status="PASS" signature="productReview(java.lang.String)[pri:4, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="productReview" duration-ms="2209" started-at="2019-10-15T00:31:17 IST" data-provider="productReview" finished-at="2019-10-15T00:31:19 IST">
+        <test-method status="PASS" signature="productReview(java.lang.String)[pri:5, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="productReview" duration-ms="5990" started-at="2019-10-15T16:43:12 IST" data-provider="productReview" finished-at="2019-10-15T16:43:18 IST">
           <params>
             <param index="0">
               <value>
@@ -299,7 +307,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productReview -->
-        <test-method status="PASS" signature="productReview(java.lang.String)[pri:4, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="productReview" duration-ms="2418" started-at="2019-10-15T00:31:19 IST" data-provider="productReview" finished-at="2019-10-15T00:31:21 IST">
+        <test-method status="PASS" signature="productReview(java.lang.String)[pri:5, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="productReview" duration-ms="5895" started-at="2019-10-15T16:43:18 IST" data-provider="productReview" finished-at="2019-10-15T16:43:24 IST">
           <params>
             <param index="0">
               <value>
@@ -310,7 +318,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productReview -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.konakart.script.ProductDetailsScript@4e1d422d]" name="endReport" is-config="true" duration-ms="5113" started-at="2019-10-15T00:31:21 IST" finished-at="2019-10-15T00:31:27 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.konakart.script.ProductDetailsScript@a67c67e]" name="endReport" is-config="true" duration-ms="605" started-at="2019-10-15T16:43:24 IST" finished-at="2019-10-15T16:43:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

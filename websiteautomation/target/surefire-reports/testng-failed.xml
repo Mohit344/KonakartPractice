@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="0" name="productdetail(failed)">
     <classes>
       <class name="com.konakart.script.ProductDetailsScript">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- com.konakart.script.ProductDetailsScript -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- productdetail(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

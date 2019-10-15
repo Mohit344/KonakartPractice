@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import com.konakart.constant.FileConstant;
 import com.konakart.constant.FindLocator;
 import com.konakart.dataprovider.ValidatingData;
 import com.konakart.helper.CommonUtility;
@@ -35,7 +36,7 @@ public class ProductDetailsPage {
 	public static void productDescriptionValidation(FindLocator loc,WebDriver driver,String [] productDescription)
 	{
 
-		CommonUtility.scrollDownPage(driver, 300);
+		CommonUtility.scrollDownPage(driver, FileConstant.scrolling_resolution);
 		String  actual_description=CommonUtility.getText(driver, loc.getproperty("description"));
 		System.out.println(actual_description);
 		for(int index=0;index < productDescription.length;index++)
@@ -77,10 +78,20 @@ public class ProductDetailsPage {
 	public static void clickOnReview(FindLocator loc,WebDriver driver)
 
 	{
-		CommonUtility.wait(1000);
+		//CommonUtility.wait(FileConstant.wait);
 
 		CommonUtility.clickElement(driver, loc.getproperty("clickonreview"));
 	}
+	
+	
+	public static void selectDropDown(FindLocator loc,WebDriver driver,String sortby)
+	{
+		
+		
+		CommonUtility.wait(FileConstant.wait);
+		CommonUtility.selectDropdown(driver, loc.getproperty("sortReview"), 2, sortby);
+	}
+	
 
 	/**
 	 * method name-validateRating(Stars)
@@ -160,6 +171,9 @@ public class ProductDetailsPage {
 			index++;
 		}
 
+		
+		
+		
 
 	}
 }

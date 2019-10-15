@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import com.konakart.constant.FileConstant;
@@ -57,7 +58,7 @@ public Properties promote;
 	}
 
 	
-	@AfterSuite
+	@AfterTest
 	public void endReport() {
 		driver.quit();// quit the webdriver
 	}

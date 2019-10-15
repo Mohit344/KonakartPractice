@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.website.script.ProductDetailsScript">
+      <class name="com.konakart.script.ProductDetailsScript">
         <methods>
           <include name="configSetup"/>
           <include name="endReport"/>
-          <include name="productReview" invocation-numbers="0 1 2 3"/>
+          <include name="productReview" invocation-numbers="2"/>
         </methods>
-      </class> <!-- com.website.script.ProductDetailsScript -->
+      </class> <!-- com.konakart.script.ProductDetailsScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -14,9 +14,10 @@ public class FileConstant {
 	public static final int implicit_wait=30;
 	public static final int polling_time=1000;
 	public static final int waittime=2;
-	public static final int scrolling_resolution=800;
+	public static final int scrolling_resolution=300;
+	public static final int wait=4000;
 
-	public static final String extentreport="/src/test/resources/extentreport/extentReport.html";
+	public static final String extentreport="./extentreport/extentReport.html";
 	public static final String homePage="./src/test/resources/testdata/homePage.xlsx";
 	public static final String productDescription="./src/test/resources/testdata/productDetail.xlsx";
 	public static final String productReview="./src/test/resources/testdata/productReview.xlsx";

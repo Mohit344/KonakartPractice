@@ -1,9 +1,11 @@
 package com.konakart.script;
 import org.apache.log4j.Logger;
+
 import org.testng.annotations.Test;
 import com.konakart.constant.FindLocator;
 import com.konakart.dataprovider.DataProviderData;
 import com.konakart.driver.DriverClass;
+import com.konakart.extentreports.ExtentReport;
 import com.konakart.pages.HomePage;
 
 public class HomePageScript extends DriverClass {
@@ -18,8 +20,9 @@ public class HomePageScript extends DriverClass {
 	 * @param itemName
 	 * @param message
 	 */
-	public void searchProduct(String productType,String productName,String productPrice,String itemName,String message)
+	public void validateSearchedProduct(String productType,String productName,String productPrice,String itemName,String message)
 	{
+		
 		Logger log = Logger.getLogger(HomePageScript.class);
 		log.info("search for the product");
 		HomePage.searchProduct(productType, productName, loc, driver);
@@ -31,8 +34,16 @@ public class HomePageScript extends DriverClass {
 		HomePage.SearchMoreItem(productType, itemName, loc, driver);
 		log.info("validating the message");
 		HomePage.validateMessage(loc, driver, message);
-
+		ExtentReport.reportLog("validateSearchedProduct", "this validateSearchedProduct method failed ");
+ 
 	}
+//	@Test(priority = 2)
+//	public void closeBrowser()
+//	{
+//		
+//		driver.quit();
+//	}
+//	
 
 
 
